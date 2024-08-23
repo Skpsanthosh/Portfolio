@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web developer, Santhoshkumar.">
+    <link rel="shortcut icon" href="Files/IMG_20240314_115947.jpg" type="image/x-icon">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="style1.css">
+
+    <title>Santhoshkumar -  Web developer</title>
+    <meta name="keywords" content="Web developer, Santhoshkumar.">
+    <meta name="author" content="Santhoshkumar">
+    <meta name="robots" content="index, follow">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" > </script>
+    <script type="text/javascript">
+      (function() {
+      emailjs.init("cs1a4dIJmvPLK45Q1");
+      })(); 
+           </script>
+
+           <style>
+
+ 
+  
+  h1 {
+      color: #000000;
+      margin-bottom: 20px;
+      font-size: 36px;
+      text-align: center;
+  }
+  
+  form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+  }
+  
+  form div {
+      margin-bottom: 15px;
+      margin-left: 400px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 50%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+      box-sizing: border-box;
+      align-items:right;
+  }
+  
+  textarea {
+      resize: vertical;
+      min-height: 100px;
+      align-items: center;
+  }
+  
+  button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 50%;
+      text-align: center;
+  }
+  
+  button:hover {
+      background-color: #0056b3;
+  }
+  
+             </style>
+           
+   
+
+</head>
+
+<body>
+    <script>function sendemail(){
+
+        var email=document.getElementById("email").value;
+        var from_name=document.getElementById("name").value;
+        var message=document.getElementById("message").value;
+    
+        var templateParams = {
+            email: email,
+           to_name:name,
+            message: message
+          };
+    
+          emailjs.send('service_cjcze0p', 'template_n9igdla', templateParams)
+      .then(function(response) {
+         console.log('SUCCESS!', response.status, response.text);
+         window.alert("Sent successfully!");
+         
+      })
+    
+         
+    }</script>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">SANTHOSHKUMAR P</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class="uil uil-graduation-cap nav__icon"></i> Qualifications
+                        </a>
+                    </li>
+                   <!--  -->
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Certification
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#Projects" class="nav__link">
+                            <i class="uil uil-Projects"></i> Projects
+                        </a>
+                    </li>
+                   
+                    
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+                    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <style>body{background:#fff;color:#2e2929}body.dark{background:#514e4e;color:#e0e0e0}</style>
+</head>
+<body>
+    <button onclick="document.body.classList.toggle('dark')" style="background-color : transparent; font-size: small;"><h3>Dark Mode</h3></button>
+
+                   
+                </ul>
+                
+            </div>
+            
+           
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/santhosh-kumar-15b36a2a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        
+                        <a href="https://x.com/SKPSANTHOSH14?t=Bl-bGgSy_kbii-qpHXGRjw&s=08">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                      
+                        <a href="https://github.com/skpsanthosh">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/skp_santhosh14?igsh=b2xpaDM3M3ZxbzJk">
+                            <i class="uil uil-instagram"></i>
+
+
+                            <a aria-label="My Whatsapp Profile" target="_blank" href="https://wa.me/+916381542990">
+                               <i class="uil uil-whatsapp"></i>
+                              </a>
+                   
+                    </div>
+
+                    <div class="home__data">
+                        
+                        <h1 class="home__title;">Hello I'm Santhoshkumar</h1>
+                        <h3 class="home__subtitle">Web Developer</h3>
+                        <p class="home__description" style="width: 900px;">Motivated and detail-oriented web developer and designer with a strong foundation in modern web technologies and design principles. Recently graduated with a Bachelor’s in Computer
+                            Science Engineering from Anna University, I have developed a keep understanding of both front-end and back-end development, complemented by a passion for creating visually appealing and
+                            user-friendly websites.</p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+
+               
+            </div>
+        </section>
+        
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title"> About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="Files/IMG_20240314_115947.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                    Hi, I'm Santhoshkumar, a recent Computer Science Engineering graduate from Christian College of Engineering and Technology, Dindigul. I have a strong foundation in web technologies and a passion for creating user-friendly websites and applications.
+
+---
+                    </p>
+
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">0 - 1 +</span>
+                            <span class="about__info-name">Years <br> experience </span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">0+</span>
+                            <span class="about__info-name">Companies <br> worked </span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">2+</span>
+                            <span class="about__info-name">Completed <br> projects </span>
+                        </div>
+                    </div>
+                    <div class="about__buttons">
+                        <a download="" href="Files/SK.pdf" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--====================== SKILLS 1 =============================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-code-branch skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Programming Languages</h1>
+                                <span class="skills__subtitle">Several years of experience</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML & CSS</h3>
+                                    <div class="skills__number">90%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__python"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java</h3>
+                                    <div class="skills__number">70%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__reactnative"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <!--====================== SKILLS 2 =============================-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-atom skills__icon"></i>
+
+                        <div>
+                            <h1 class="skills__title">Technologies</h1>
+                            <span class="skills__subtitle"></span>
+                        </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Poster desining</h3>
+                                <div class="skills__number">85%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__docker"></div>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Logo Designing</h3>
+                                <div class="skills__number">90%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__git"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Adobe Lightroom</h3>
+                                <div class="skills__number">80%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__reactnative"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Canva</h3>
+                                <div class="skills__number">85%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__bash"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Bootstrap</h3>
+                                <div class="skills__number">80%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__bootstrap"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--====================== SKILLS 3 =============================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-database skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Database Systems</h1>
+                                <span class="skills__subtitle">Several years of experience</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">MySQL</h3>
+                                    <div class="skills__number">70%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__mysql"></div>
+                                </div>
+                            </div>
+
+                           
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualifications">
+            <h2 class="section__title">Qualifications</h2>
+            <div class="section__subtitle">My personal journey</div>
+
+           
+
+                <div class="qualification__sections">
+                    <!--===============================QUALIFICATION CONTENT 1 ===========================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--===============================QUALIFICATION 1 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">BE.Computer Science And Engineering</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="" target="_blank">Anna University, Tamilnadu</a>
+                                        <br>
+                                        <h5>Christian College of Engineering and Technology</h5>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2024-
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--===============================QUALIFICATION 2 ===========================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">HSC</h3>
+                                <span class="qualification__subtitle">
+                                    <a>Government Boys Higher Secondary School Vadamadurai-624802</a>
+                                        <br>
+                                        <h5>Percentage:45.2%</h5>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2018 - 2020
+                                </div>
+                                <div class="qualification__data">
+                                    <div></div>
+                                   
+                                    <div>
+                                    </div></div>
+                                        <h3 class="qualification__title">SSLC</h3>
+                                        <span class="qualification__subtitle">
+                                            <a>Kalaimagal Higher Secondary School Vadamadurai-624802</a>
+                                                <br>
+                                                <h5>Percentage:69.8%</h5>
+                                        </span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-calendar-alt"></i>
+                                            2017 - 2018
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+
+                   
+
+            </div>
+        </section>
+
+        <!--==================== Certification ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Certification</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+
+            <div class="portfolio__container container swiper-container">
+               
+
+                    <!--======================== Certification 1 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="Files/GUVI.png" alt="" class="portfolio__img" loading="lazy">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Full Stack With puthon Programming</h3>
+                            <p class="portfolio__description">
+                                GUVI, Full Stack With python Programming
+                            </p>
+                            <a href="Files/GuviCertification - 68190A9r5w237sfOD6.png"
+                                class="button button--flex button--small portfolio__button">
+                                View
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+
+                    <!--======================== Certification 2 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="Files/TCS.png" alt="" class="portfolio__img" loading="lazy">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Communication Skills</h3>
+                            <p class="portfolio__description">
+                                Successfully Completing COMMUNICATION SKILLS a Course that Covers Important Of Communication
+                            </p>
+                            <a href="Files/Screenshot_2024_0807_175145.jpg"
+                                class="button button--flex button--small portfolio__button">
+                                View
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!--======================== Certification 3 =============-->
+            
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="Files/CCET logo.png" alt="" class="portfolio__img" loading="lazy">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Digital Marketing</h3>
+                            <p class="portfolio__description">
+                                Certificated For Best Contributor
+                            </p>
+                            <a href="Files/Digital marketing.jpg"
+                                class="button button--flex button--small portfolio__button">
+                                View
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </br>
+
+                    <!--======================== Certification 4 =============-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="Files/CCET logo.png" alt="" class="portfolio__img" loading="lazy">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">APP BUILDING</h3>
+                            <p class="portfolio__description">
+                               techwizard'22
+                            </p>
+                            <a href="Files/TechWizard.jpg"
+                                class="button button--flex button--small portfolio__button">
+                                View
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--======================== Certification 5 =============-->
+                    
+                   
+<!----------------------------------Project--------------------------------------------->
+
+<section class="portfolio section" id="Projects">
+    <h2 class="section__title">Projects</h2>
+    <span class="section__subtitle">Most Recent Work</span>
+
+    <div class="portfolio__container container swiper-container">
+
+        <!-- ------------------------portfollio 1-------------------- -->
+        <div class="portfolio__content grid swiper-slide">
+            <img src="Files/648f43a3f8719a50eb99f32f_BotX - fin 108.jpg" class="portfolio__img" />
+  
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                HEART DISEASE PREDICTION USING DEEP LEARNING
+              </h3>
+              <p class="portfolio__description"  style="width: 395px;">
+                Using a Multi-Layer Perceptron (MLP) algorithm for heart disease prediction offers a powerful tool
+                 for early detection by analyzing complex patterns in patient data. This approach enhances the accuracy of diagnoses, 
+                 enabling timely interventions and improving patient outcomes in the management of heart disease.
+              </p>
+              <a
+                href="https://github.com/Skpsanthosh/Heart-Disease-Prediction-/tree/main"
+                class="button button--flex button--small portfolio__button"
+              >
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a
+                href="Files/Final Project Report.pdf"
+                class="button button--flex button--small portfolio__button"
+              >
+                View Report
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <br>
+          <br>
+        <!-- ------------------------portfollio 2-------------------- -->
+
+        <div class="portfolio__content grid swiper-slide">
+          <img src="Files/images.jpeg" class="portfolio__img"  />
+
+          <div class="portfolio__data">
+            <h3 class="portfolio__title">
+                A MOVIE TICKET BOOKING SYSTEM
+            </h3>
+            <p class="portfolio__description"  style="width: 395px;">
+                Streamlineyour cinemaexperience with our MySQL-powered movie ticket booking system!
+                Our database-driven platform allowsyou to:
+                - Storeand manage movie information, showtimes,and theater details
+                - Create useraccountsand track booking history
+                - Handle seat reservationsand ticket sales efficiently
+                - Generate reports on ticket sales, revenue,and customer behavior
+            </p>
+            <a
+              href="https://github.com/Skpsanthosh/A-movie-Ticket-Booking-system/tree/main"
+              class="button button--flex button--small portfolio__button"
+            >
+              GitHub Repository
+              <i class="uil uil-external-link-alt button__icon"></i>
+            </a>
+            <a
+              href="Files/Mini Project Report.pdf"
+              class="button button--flex button--small portfolio__button"
+            >
+              View Report
+              <i class="uil uil-external-link-alt button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+       
+
+                   
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">CONTACT</h3>
+                            <span class="contact__subtitle">+916381542990</span>
+                        </div>
+                    </div>
+                <div class="Contact">
+                    <div>
+
+                    </div>
+                </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                          <a href="mailto:your.skpsanthosh2001@gmail.com">skpsanthosh2001@gmail.com</a>
+                        </div>
+                    </div>
+                    
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Nearby Railway Gate, Petrol Bunk Back Side, Balaji Nagar, Vadamadurai, Dindigul(dt)-624802</span>
+                        </div>
+                    </div>
+                        
+                   
+                 </div>
+            </div>
+        </section>
+
+    </main>
+    
+            <h1>Send Email</h1>
+            <form id="emailForm">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <div>
+                    <button onclick="sendemail()"="submit">Send Email</button>
+                </div>
+            </form>
+        
+
+    
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <h2 class="footer__title">Santhoshkumar</h2>
+                    <span class="footer__subtitle">Web Developer</span>
+                </div>
+
+                <ul class="footer__links" style="align-self: center;">
+                   
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Certification</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials" style="align-self: center;">
+                    <a href="https://wa.me/+916381542990" class="footer__social" target="_blank">
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/santhosh-kumar-15b36a2a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"
+                        class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+
+                    <a href="https://github.com/skpsanthosh" target="_blank" class="footer__social">
+                        <i class="uil uil-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy" style="margin-top: 10px;">&#169; Santhoshkumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+
